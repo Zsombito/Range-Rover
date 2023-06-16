@@ -1,0 +1,8 @@
+.humid{
+    background-color: aqua;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}

@@ -1,0 +1,31 @@
+.w3-container{
+    background-color:#F58200;
+}
+
+.buttonx{
+    position: absolute;
+    left:20%;
+}
+
+
+.start {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    transition-duration: 1s;
+    cursor:pointer;
+    background-color: white;
+    color: #F58200;
+    border: 2px solid #F58200 ;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.start:hover {
+    background-color: #F58200;
+    color: white;
+}

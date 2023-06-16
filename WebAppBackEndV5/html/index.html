@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Rover Command
+    </title>
+    <head>
+        <link rel="stylesheet" href="../styles/coordbox.css">
+        <link rel="stylesheet" href="../styles/switch.css">
+        <link rel="stylesheet" href="../styles/manualcontrol.css">
+        <link rel="stylesheet" href="../styles/map.css">
+        <link rel="stylesheet" href="../styles/batteryblock.css">
+        <link rel="stylesheet" href="../styles/livegraph.css">
+        <link rel="stylesheet" href="../styles/slider.css">
+        <script src="https://kit.fontawesome.com/1154dab15d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div style="display:none;">
+            <img id="rover"
+                 src="../images/pixelrover1.png">
+          </div>
+        <div class="batterybox">
+            <canvas width="250" height="125" class="battery" id="bmap"></canvas>
+            <div class="ctxt" id="bcharge">
+                0%
+            </div>
+        </div>
+        <div>
+            <button class="blankbutton" type="button" onclick="window.location.href='/'">
+                <i class="fa-solid fa-house fa-5x"></i>
+            </button> 
+        </div>
+        <div class="buttoncontrol">
+            <div class="input_coord">
+                <div class="box">
+                    <input type="text" id="xcord" name="xcord" placeholder="x co-ord">
+                </div>
+                <div class="box">
+                    <input type="text" id="ycord" name="ycord" placeholder="y co-ord">
+                </div>
+                <button id="sendbutton" class="senddatabutton" type="submit"><strong>SEND</strong></button>
+            </div>
+            <button class="b_up">
+                <i class="fa-solid fa-arrow-up fa-5x"></i>
+            </button>
+            <div class="switchbox">
+                <div class="tmp">
+                    <label class="autod" for="switch">AUTO DRIVE</label><br>
+                    <label class="switch" id="switch" name="switch">
+                        <input id="auto" name="auto" type="checkbox" value="auto">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <button class="b_left">
+                <i class="fa-solid fa-arrow-rotate-left fa-5x"></i>
+            </button>
+            <button class="b_down">
+                <i class="fa-solid fa-arrow-down fa-5x"></i>
+            </button>
+            <button class="b_right">
+                <i class="fa-solid fa-arrow-rotate-right fa-5x"></i>
+            </button>
+            <button class="stopb">
+                STOP
+            </button>
+        </div>
+        <div class="graph" id="chartContainer"></div>
+        <div class="container">
+            <div class="veltxt" id="veltxt"></div>
+            <div class="range-slider">
+              <input type="range" orient="vertical" min="0" max="100" />
+              <div class="range-slider__bar"></div>
+              <div class="range-slider__thumb"></div>
+            </div>
+        </div>
+        <div class="mapset">
+            <div id="ctxtbox" class="cordtooltip">(0,0)</div>
+            <div>
+                <img src="../images/The_Medusae_Fossae_formation_pillars.png" class="marsmap" id="mars"></canvas>
+            </div>
+            <div>
+                <canvas width="1184" height="779" class="gridmap" id="grid"></canvas>
+            </div>
+            <div>
+                <canvas width="1184" height="779" class="livemap" id="lmap"></canvas>
+            </div>
+        </div>
+        
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        <script src="http://netbeast.github.io/colorsys/browser.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type = "text/javascript" src="../scripts/livebattery.js"></script>
+        <script type = "text/javascript" src = "../scripts/manual.js"></script>
+        <script type = "text/javascript" src = "../scripts/livemap.js"></script>
+        <script type = "text/javascript" src = "../scripts/livegraph.js"></script>
+        <script type = "text/javascript" src = "../scripts/slider.js"></script>
+    </body>
+</html>
+
+    

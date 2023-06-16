@@ -1,0 +1,15 @@
+The RangeRover is a prototype Mars Rover inspired by NASA’s Perseverance. 
+It was developed as a university project for the 2nd year Electronic and Information Engineering course at Imperial College London.
+It’s objective is to serve as a prototype and as a model for the behaviour of a rover surveying alien colonies on Mars.
+
+It needed the following capabilities:
+
+Remote control and data submission via communication to a website hosted on the cloud
+Sophisticated computer vision responsible for detecting bodies and objects with specific textures
+A fully functioning mechanical drive system with a multi-looped PID controller
+A local master-slave network using a microcontroller to command the other subsystems and peripherals
+An energy subsystem involving charging, solar panel characterization, other analog systems.
+A radar subsystem capable of detecting range of rotating metal fans and also direction, used to detect moving mechanical systems on the model planet.
+
+These were successfully developed and can be seen within the repository.
+	

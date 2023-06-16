@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+
+.batterybox{
+    background-color: #F58200;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width:330px;
+    height:150px;
+    /* display:flex; */
+    border-radius: 20px;
+}
+
+.battery{
+    position: relative;
+    left:5%;
+    top: 8%;
+    padding:0;
+}
+
+.ctxt{
+    padding:0;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 1.8em;
+    color : white;
+    position: relative;
+    top: -20%;
+    left:78%
+}

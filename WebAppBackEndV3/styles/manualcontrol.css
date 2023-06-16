@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+
+body{
+    background-color: black;
+}
+
+.buttoncontrol{
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    top:20%;
+    gap:10px;
+    row-gap: 10px;
+    justify-content: center;
+    flex-wrap:wrap;
+    width:330px
+}
+
+button{
+    border-color: white;
+    border-radius: 20px;
+    background: #F58200;
+    width: 100px;
+    height: 100px; 
+}
+
+.stopb{
+    color:black;
+    justify-content: center;
+    font-family: Lato;
+    font-size: 3em;
+    font-weight: 900;
+    width: 330px;
+    height: 100px; 
+    transition-duration: 0.4s;
+}
+
+.stopb:hover{
+    color:white;
+    font-weight: 900;
+    background: #b50000;
+}
+
+.fa-arrow-up{
+    color:black;
+    position: relative;
+    top:0%;
+    transition-duration: 0.4s;
+}
+
+.fa-arrow-up:hover {
+    color: white;                    
+}
+
+.fa-arrow-rotate-right{
+    color:black;
+    position: relative;
+    top:0%;
+    transition-duration: 0.4s;
+}
+
+.fa-arrow-rotate-right:hover {
+    color: white;                    
+}
+
+.fa-arrow-rotate-left{
+    color:black;
+    position: relative;
+    top:0%;
+    transition-duration: 0.4s;
+}
+
+.fa-arrow-rotate-left:hover {
+    color: white;                
+}
+
+.fa-arrow-down{
+    color:black;
+    position: relative;
+    top:0%;
+    transition-duration: 0.4s;
+}
+
+.fa-arrow-down:hover {
+    color: white;                   
+}

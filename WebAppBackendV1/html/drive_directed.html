@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Directed Drive Control
+    </title>
+    <body>
+        <style>
+            canvas{
+                width:200px;
+                height:100px
+            }
+
+            .livemap{
+                width:calc(3555px/5);
+                height:calc(2337px/5);
+                border:5px, solid, black;
+                background-color: antiquewhite;
+            }
+
+            .map{
+                padding: 20px;
+                /*position: absolute;*/
+            }
+
+            .input_coord{
+                padding:20px;
+                /*position: absolute;
+                top:10%;*/
+            }
+        </style>
+
+        <div class="input_coord">
+            <form action='/drive/directed' method="post" id="form1">
+                <label for="xcord">x coordinate:</label><br>
+                <input type="text" id="xcord" name="xcord"><br>
+
+                <label for="ycord">y coordinate:</label><br>
+                <input type="text" id="ycord" name="ycord"><br><br>
+
+                <button type="submit">send data</button>
+            </form>
+        </div>
+
+        <div class = "map">
+            <canvas class="livemap"></canvas>
+        </div>
+
+
+        <script type = "text/javascript" src = "../scripts/directeddrive.js"></script>
+
+    </body>
+</html>

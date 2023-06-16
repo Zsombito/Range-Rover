@@ -1,0 +1,58 @@
+.head{
+    background-image:url(../images/https___cdn.cnn.com_cnnnext_dam_assets_181115180453-01-mars-best-moments-mars-globe-valles-marineris-enhanced.jpg);
+}
+
+.buttonx{
+    position: absolute;
+    left:21%;
+    top:124.5%;
+}
+
+.logo{
+    width:15%;
+    height: auto;
+    position: absolute;
+    top:5%;
+    left:1%;
+}
+
+.first{
+    background-color: #F58200;
+}
+
+.second{
+    background-color: lightgray;
+}
+
+.start {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    transition-duration: 0.3s;
+    cursor:pointer;
+    color:#F58200;
+    background-color:lightgray;
+    border:none;
+    width: 250px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.start:hover {
+    background-color: #F58200;
+    color: white;
+}
+
+.tphoto{
+    position: absolute;
+    left:57%
+}
+
+.howto{
+    position:relative;
+    top:70%;
+    left:28%;
+}

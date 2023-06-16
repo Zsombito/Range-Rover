@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <style>
+                .livemap{
+                    /*background-color: white;*/
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin: -389px 0 0 -593px;
+                }
+
+                .gridmap{
+                    /*background-color: white;*/
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin: -389px 0 0 -593px;
+                }
+
+                .marsmap{
+                    /*background-color: white;*/
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin: -389px 0 0 -593px;
+                }
+            </style>
+        </head>
+        <body>
+            <div>
+                <img src="../images/The_Medusae_Fossae_formation_pillars.png" class="marsmap" id="mars"></canvas>
+            </div>
+            <div>
+                <canvas width="1186" height="779" class="gridmap" id="grid"></canvas>
+            </div>
+            <div>
+                <canvas width="1186" height="779" class="livemap" id="lmap"></canvas>
+            </div>
+            <script src="../scripts/livemap.js"></script>
+        </body>
+    </html>

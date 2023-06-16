@@ -1,0 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+
+.graph{
+    height:275px; 
+    width:420px;
+    position: absolute;
+    top:65%;
+    left:1%;
+}

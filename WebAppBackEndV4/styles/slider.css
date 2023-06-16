@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+  
+  .container {
+    position: absolute;
+    display: inline-block;
+    padding:0;
+    top: -20%;
+    left: 24%;
+  }
+
+  @media (min-height: 500px) {
+    .container {
+      position: absolute;
+      top: 43.5%;
+      transform: translate(-50%, -50%);
+      padding-bottom: 0;
+    }
+  }
+  
+  .veltxt{
+    padding:5px;
+    position:absolute;
+    left: -22px;
+    top: -30px;
+    width: 100px;
+    font-size:100%;
+    font-family: Lato;
+    color:white;
+  }
+
+  .range-slider {
+    display: inline-block;
+    width: 40px;
+    position: relative;
+    text-align: center;
+    height: 300px;
+  }
+  .range-slider__thumb {
+    position: absolute;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: white;
+    font-family: Lato;
+    color: black;
+    font-size:90%;
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  .range-slider__bar {
+    left: 16px;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(#FFB55F,#f58200);
+    pointer-events: none;
+    width: 8px;
+    border-radius: 10px;
+  }
+  .range-slider input[type=range][orient=vertical] {
+    position: relative;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    writing-mode: bt-lr;
+    -webkit-appearance: slider-vertical;
+  }
+  .range-slider input[type=range][orient=vertical]::-webkit-slider-runnable-track, .range-slider input[type=range][orient=vertical]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+  }
+  .range-slider input[type=range][orient=vertical]::-webkit-slider-runnable-track {
+    border: none;
+    background: #343440;
+    width: 8px;
+    border-color: #343440;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px #3D3D4A;
+  }
+  .range-slider input[type=range][orient=vertical]::-ms-fill-lower, .range-slider input[type=range][orient=vertical]::-ms-fill-upper, .range-slider input[type=range][orient=vertical]::-ms-tooltip {
+    display: none;
+  }
+  .range-slider input[type=range][orient=vertical]::-webkit-slider-thumb {
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+  }

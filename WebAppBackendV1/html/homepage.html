@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mars Rover Home</title>
+
+        <style>
+            .button {
+                border: none;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                transition-duration: 0.6s;
+                cursor:pointer;
+            }
+            
+            .data {
+                background-color: white;
+                color: rgb(229, 66, 30);
+                border: 2px solid rgb(229, 66, 30) ;
+                width: 400px;
+                height: 150px;
+                position:relative;
+                bottom: 40%;
+                left: 1%;
+            }
+            
+            .data:hover {
+                background-color: rgb(229, 66, 30);
+                color: white;
+            }
+
+            .view {
+                background-color: white;
+                color: rgb(229, 66, 30);
+                border: 2px solid rgb(229, 66, 30) ;
+                width: 400px;
+                height: 150px;
+                position:relative;
+                bottom: 40%;
+                left: 10%;
+
+            }
+            
+            .view:hover {
+                background-color: rgb(229, 66, 30);
+                color: white;
+            }
+
+            .drive {
+                background-color: white;
+                color: rgb(229, 66, 30);
+                border: 2px solid rgb(229, 66, 30) ;
+                width: 400px;
+                height: 150px;
+                position:relative;
+                bottom: 40%;
+                left: 20%;
+
+            }
+            
+            .drive:hover {
+                background-color: rgb(229, 66, 30);
+                color: white;
+            }
+            
+            /*.button2 {
+              background-color: white;
+              color: black;
+              border: 2px solid #008CBA;
+            }
+            
+            .button2:hover {
+              background-color: #008CBA;
+              color: white;
+            }*/
+            
+            </style>
+    </head>
+    <body>
+        <h2>Welcome to the Range-Rover M-class homepage</h2>
+        <button class = "button data" type="button" onclick="window.location.href='/data'">DATA</button>
+        <button class = "button view" type="button" onclick="window.location.href='/view'">VIEW</button>
+        <button class = "button drive" type="button" onclick="window.location.href='/drive'">DRIVE</button>
+        <!--<form id="form1">
+            <label for="num1">Input number:</label><br>
+            <input type="text" id="num1" name="num1"><br>
+            <input type="button" value="Check!" onclick="primeOrNot()">
+        </form>!
+
+        <p id="response"></p>
+        
+        <script type="text/javascript" src="prime.js"></script>-->
+    </body>
+</html>
